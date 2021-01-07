@@ -1,0 +1,31 @@
+{
+  "C_Cpp.clang_format_style": "Visual Studio",
+  "editor.formatOnSave": false,
+  "[cpp]": {
+    "editor.quickSuggestions": true
+  },
+  "[c]": {
+    "editor.quickSuggestions": true
+  },
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "idf.portWin": "COM3",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp32_devkitj_v1.cfg",
+    "board/esp32-wrover-kit-1.8v.cfg"
+  ],
+  "idf.adapterTargetName": "esp32",
+  "files.associations": {
+    "esp_spi_flash.h": "c",
+    "timer.h": "c",
+    "gpio.h": "c",
+    "pins.h": "c",
+    "spi_master.h": "c",
+    "esp_system.h": "c",
+    "spi_common.h": "c",
+    "stdio.h": "c",
+    "array": "c",
+    "string": "c",
+    "string_view": "c"
+  },
+  "C_Cpp.default.compilerPath": "C:\\Program Files\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe"
+}
