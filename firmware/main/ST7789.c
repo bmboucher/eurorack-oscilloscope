@@ -266,7 +266,4 @@ void initialize_display()
     ESP_ERROR_CHECK(ret);
     //Initialize the LCD
     lcd_init(spi);
-    //Initialize the effect displayed
-    ret=pretty_effect_init();
-    ESP_ERROR_CHECK(ret);
 }
