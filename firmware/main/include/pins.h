@@ -1,3 +1,5 @@
+#pragma once
+
 // Rotary encoder 1
 #define SW1 0
 #define ENC1_A 16
